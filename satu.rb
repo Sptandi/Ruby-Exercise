@@ -1,9 +1,9 @@
 def formater(first_name, middle_name, last_name) 
-	print "#{first_name} "
+	print "#{first_name.capitalize} "
 	if !middle_name.empty?
-		print "#{middle_name.chr}. "
+		print "#{middle_name.chr.capitalize}. "
 	end
-	print "#{last_name} "
+	print "#{last_name.capitalize} "
 end
 
 print "first_name :"
